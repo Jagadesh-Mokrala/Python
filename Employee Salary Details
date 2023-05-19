@@ -1,0 +1,45 @@
+Write a python program to calculate employee salary.
+
+empno=int(input('enter employee number:'))
+empname=input('enter employee name:')
+desig=input('enter designation:')
+basicsal=int(input('enter basic salary:'))
+hra=int(input('enter house rent allownace:'))
+ta=int(input('enter travelling allowance:'))
+da=int(input('enter daily allowance:'))
+insurance=int(input('enter Insurance:'))
+netsal=basicsal+hra+da+ta-insurance
+print('Employee no',empno)
+print('Employee name',empname)
+print('Designation',desig)
+print('Basic salary',basicsal)
+print('House rent allownace',hra)
+print('Travel allowance',ta)
+print('Daily allowance',da)
+print('Insurance',insurance)
+print('Net Salary',netsal)
+             
+Output:
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+===== RESTART: C:/jagadesh/Python/Employeedetails.py =====
+enter employee number:102
+enter employee name:jagadesh
+enter designation:Developer
+enter basic salary:150000
+enter house rent allownace:9000
+enter travelling allowance:4000
+enter daily allowance:5000
+enter Insurance:2100
+
+
+Employee no 102
+Employee name jagadesh
+Designation Developer
+Basic salary 150000
+House rent allownace 9000
+Travel allowance 4000
+Daily allowance 5000
+Insurance 2100
+Net Salary 165900
