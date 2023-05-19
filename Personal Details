@@ -1,0 +1,44 @@
+#Write a python program to print your personal details
+
+Program:
+
+name=input('enter name:')
+qualification=input('enter qualification:')
+fname=input('enter father name:')
+mname=input('enter mother name:')
+favcol=input('Enter favorite color:')
+favfood=input('enter favourite food:')
+favact=input('enter favourite actor:')
+insper=input('enter inspired person:')
+print('Your name:',name)
+print('Qualification:',qualification)
+print('father name:',fname)
+print('Mother name:',mname)
+print('Favourite Color:',favcol)
+print('Favourite Food:',favfood)
+print('Favourite actor:',favact)
+print('inspire person:',insper)
+
+
+Output:
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+===== RESTART: C:/jagadesh/Python/Personaldetails.py =====
+enter name:Jagadesh
+enter qualification:Btech
+enter father name:Sai
+enter mother name:Valli
+Enter favorite color:Blue
+enter favourite food:Biryani
+enter favourite actor:All
+enter inspired person:APJ Abdul Kalam
+Your name: Jagadesh
+Qualification: Btech
+father name: Sai
+Mother name: Valli
+Favourite Color: Blue
+Favourite Food: Biryani
+Favourite actor: All
+inspire person: APJ Abdul Kalam
+>>> 
