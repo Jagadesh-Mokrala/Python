@@ -1,0 +1,15 @@
+#write a program to print given number is less than 100 or less than 50 or less than 10 or more than 100
+
+a=int(input('Enter a value'))
+if(a<100 or a<50 or a<10 or a>100):
+    print('All conditions are true')
+else:
+    print('All coditions are false')
+    
+    
+ Output:
+ >>> 
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/123.py
+Enter a value100
+All coditions are false
+>>> 
