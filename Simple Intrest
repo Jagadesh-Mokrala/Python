@@ -1,0 +1,20 @@
+#Write a program to calculate Simple Intrest
+
+
+
+principle=int(input('Enter Principle Amount:'))
+rateofintrest=float(input('Enter Rate Of Intrest:'))
+time=int(input('Enter time'))
+si=principle*rateofintrest*time/100
+print('Simple intrest:',si)
+
+
+
+Output:
+>>> 
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/123.py
+Enter Principle Amount:90000
+Enter Rate Of Intrest:4
+Enter time3
+Simple intrest: 10800.0
+>>> 
