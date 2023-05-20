@@ -1,0 +1,23 @@
+#Write a program to print given student is pass or fail based on 3 subjects.
+
+
+rno=int(input('Enter Student Reg Number:'))
+name=input('Enter Student name:')
+s1=int(input('Enter Maths marks:'))
+s2=int(input('Enter Physics marks:'))
+s3=int(input('Enter Computers marks:'))
+if(s1>=35 and s2>=35 and s3>=35):
+    print('Pass')
+else:
+    print('Fail')
+    
+    
+Output:
+>>> 
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/123.py
+Enter Student Reg Number:123
+Enter Student name:Jagadesh
+Enter Maths marks:98
+Enter Physics marks:89
+Enter Computers marks:97
+Pass
