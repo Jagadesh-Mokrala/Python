@@ -1,0 +1,31 @@
+Write a program to calculate employee tax
+
+name=input('enter employee name:')
+designation=input('enter designation:')
+sal=int(input('enter salary:'))
+if(sal>100000):
+    tax=sal*10/100
+elif(sal>=70000):
+    tax=sal*7/100
+elif(sal>=50000):
+    tax=sal*5/100
+elif(sal>=35000):
+    tax=sal*3/100
+else:
+    tax=0
+print('Employee Name:',name)
+print('Employee Designation:',designation)
+print('Employee salary:',sal)
+print('Employee Tax:',tax)
+
+          
+    Output:
+    = RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/789.py
+enter employee name:'jagadesh'
+enter designation:'developer'
+enter salary:80000
+Employee Name: 'jagadesh'
+Employee Designation: 'developer'
+Employee salary: 80000
+Employee Tax: 5600.0
+>>> 
