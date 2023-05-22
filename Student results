@@ -1,0 +1,48 @@
+write a program to generate student results
+
+sno=int(input('enter student number'))
+name=input('enter name')
+group=input('enter group')
+s1=int(input('enter s1 marks'))
+s2=int(input('enter s2 marks'))
+s3=int(input('enter s3 marks'))
+total=s1+s2+s3
+avg=total/3
+if(avg>=90):
+    result='Distinction'
+elif(avg>=70):
+    result='First class'
+elif(avg>=60):
+    result='Second class'
+elif(avg>=50):
+    result='Third class'
+elif(avg>=40):
+    result='pass'
+else:
+    result='fail'
+print('Student number:',sno)
+print('Student Name:',name)
+print('Student Group:',group)
+print('Total:',total)
+print('average:',avg)
+print('Result:',result)
+
+Output:
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/1233.py
+enter student number101
+enter name'jagadesh'
+enter group'bca'
+enter s1 marks98
+enter s2 marks89
+enter s3 marks78
+Student number: 101
+Student Name: 'jagadesh'
+Student Group: 'bca'
+Total: 265
+average: 88.33333333333333
+Result: First class
+>>> 
+
+ 
+
+    
