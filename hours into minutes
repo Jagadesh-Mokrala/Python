@@ -1,0 +1,12 @@
+Write a program to convert hours into minutes
+
+
+n=int(input("enter n value:"))
+minutes=n*60
+print(minutes)
+
+Output:
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/456.py
+enter n value:5
+300
+>>> 
