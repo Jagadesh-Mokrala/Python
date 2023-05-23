@@ -1,0 +1,29 @@
+Ass1:
+Write a program to calculate print given year is leap year not.
+If the year is not leap year,please suggest the next leap year.
+Input:2000
+Output:Leap year
+Input:2023
+Output:2024
+
+year=int(input("Enter a Year:"))
+
+if year % 400==0: 
+    print("Leap Year")
+elif year%100==0:
+    print(year+(4-year%4)
+elif year%4==0:
+    print("Lear year")
+else:
+    print(year+(4-year%4))
+
+Output:
+>>> ================================ RESTART ================================
+>>> 
+Enter a Year:2023
+2024
+>>> ================================ RESTART ================================
+>>> 
+Enter a Year:2000
+Leap Year
+>>> ================================ RESTART ================================
