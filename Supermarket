@@ -1,0 +1,54 @@
+Ass3:
+Write a program to prepare super market bill like the above program(take any 5 items(rice,sugaryaata...)
+
+sugar=60
+dal=80
+rice=55
+wheet=90
+oil=120
+
+print("SUPER MARKET")
+cname=input("Enter Customer Name:")
+phno=input("Enter Customer Phone Number:")
+spac=int(input("Enter Sugar Packets :"))
+dpac=int(input("Enter Dal Packets :"))
+rpac=int(input("Enter Rice Packets:"))
+wpac=int(input("Enter Wheet Packets:"))
+opac=int(input("Enter Oil Packets:"))
+
+bill= (sugar * spac)+(dal * dpac)+(rice * rpac)+(wheet * wpac)+(oil * opac)
+
+if bill >= 2000 :
+    tax = bill *20/100
+    dis=bill * 40/100
+elif bill >= 1000 :
+    tax = bill * 10/100
+    dis=bill * 30/100
+elif bill >=500 :
+    tax = bill * 7/100
+    dis = bill * 20/100
+else:
+    tax = 50
+
+ob=bill +tax - dis
+
+print("Customer Name:",cname)
+print("Customer Phone Number :",phno)
+print("Total Bill",ob)
+
+Output
+==== RESTART: C:/Users/aditya/AppData/Local/Programs/Python/Python311/123.py ===
+SUPER MARKET
+Enter Customer Name:anvesh
+Enter Customer Phone Number:1234567890
+Enter Sugar Packets :1
+Enter Dal Packets :2
+Enter Rice Packets:2
+Enter Wheet Packets:3
+Enter Oil Packets:3
+Customer Name: anvesh
+Customer Phone Number : 1234567890
+Total Bill 835.2
+
+
+
