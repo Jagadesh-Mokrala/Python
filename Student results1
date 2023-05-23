@@ -1,0 +1,56 @@
+Ass2:
+Write a program to generate students results with 6 subjects.
+
+sno=int(input("Enter sno:"))
+sname=input("Enter your name:")
+group=input("Enter your Group:")
+s1=int(input("Enter subject 1 marks"))
+s2=int(input("Enter subject 2 marks"))
+s3=int(input("Enter subject 3 marks"))
+s4=int(input("Enter subject 4 marks"))
+s5=int(input("Enter subject 5 marks"))
+s6=int(input("Enter subject 6 marks"))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+
+if( s1<40 or s2<40 or s3<40 or s4<40 or s5<40 or s6<40):
+    
+    print("Fail")
+elif(avg>= 90):
+    print("Distinction")
+elif(avg>=70):
+    print("First Class")
+elif (avg>=60):
+    print("Second Class")
+elif (avg>=50):
+    print("Third Class")
+else:
+    print("Pass")
+
+print("sno:",sno)
+print("sname",sname)
+print("group:",group)
+print("total:",total)
+print("average:",avg)
+
+
+>>> ================================ RESTART ================================
+>>> 
+Enter sno:123
+Enter your name:"jagadesh"
+Enter your Group:"bsc"
+Enter subject 1 marks92
+Enter subject 2 marks95
+Enter subject 3 marks96
+Enter subject 4 marks97
+Enter subject 5 marks95
+Enter subject 6 marks98
+*********************
+Distinction
+*********************
+('sno:', 123)
+('sname', 'jagadesh')
+('group:', 'bsc')
+('total:', 573)
+('average:', 95)
+>>> 
