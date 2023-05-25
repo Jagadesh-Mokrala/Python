@@ -1,0 +1,24 @@
+write a program to print sum of even numbers and odd numbers 
+
+Program:
+n=int(input())
+i=1
+evensum=0
+oddsum=0
+while i<=n:
+    if i%2==0:
+        evensum+=i
+    else:
+        oddsum+=i
+    i+=1
+print("Even numbers sum:",evensum)
+print("odd numbers sum:",oddsum)
+
+
+Output:
+>>> 
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/evensum.py
+5
+Even numbers sum: 6
+odd numbers sum: 9
+>>> 
