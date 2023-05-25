@@ -1,0 +1,25 @@
+Write a program to print the following series
+(1^1 2^2 3^3)
+
+Program:
+n=int(input())
+i=1
+while i<=n:
+    print(i**i,end=' ')
+    i=i+1
+    
+    
+  Output:
+  = RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/4564.py
+10
+1
+4
+27
+256
+3125
+46656
+823543
+16777216
+387420489
+10000000000
+
