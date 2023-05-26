@@ -1,0 +1,17 @@
+write a program to print minimum digits from given number
+
+n=int(input('enter n value'))
+minimum=n%10
+while n!=0:
+    r=n%10
+    if r<minimum:
+        minimum=r
+    n=n//10
+print(minimum)
+
+
+Output:
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/min.py
+enter n value88127638
+1
+>>> 
