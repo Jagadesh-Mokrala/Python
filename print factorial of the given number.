@@ -1,0 +1,19 @@
+write a program to print factorial of the given number.
+
+def fact(n):
+    if n <= 1 :
+        return 1
+    else:
+        return n *fact(n-1)
+
+num=int(input("Enter a Number:"))
+fact(num)
+print("factorial of a given number is", fact(num))
+
+
+Output:
+>>> ================================ RESTART ================================
+>>> 
+Enter a Number:5
+('factorial of a given number is', 120)
+>>> 
