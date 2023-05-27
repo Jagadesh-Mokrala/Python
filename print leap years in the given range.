@@ -1,0 +1,14 @@
+write a program to print leap years in the given range.
+
+for year in range(2000,2010):
+    if(year %400 == 0 or year%4 == 0 and year%100 != 0 ):
+        print(year)
+
+Output:
+
+>>> ================================ RESTART ================================
+ 
+2000
+2004
+2008
+>>> 
