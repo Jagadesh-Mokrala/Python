@@ -1,0 +1,23 @@
+write a program to print positive values from list.
+
+n=int(input())
+l=[]
+for i in range(0,n):
+    x=int(input())
+    l.append(x)
+for i in l:
+    if(i>=0):
+        print(i,end=' ')
+
+
+Output:
+>>> 
+= RESTART: C:\Users\LAB 1 SYS 20\AppData\Local\Programs\Python\Python38\minn.py
+5
+-3
+9
+-4
+3
+3
+9 3 3 
+>>> 
