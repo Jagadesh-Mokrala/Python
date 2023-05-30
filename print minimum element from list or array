@@ -1,0 +1,23 @@
+write a program to print minimum element from list or array
+
+n=int(input('enter n value'))
+l=[]
+for i in range(0,n):
+    c=int(input())
+    l.append(c)
+    minn=l[0]
+for i in range(1,n):
+    if l[i]<minn:
+        minn=l[i]
+print(minn)
+
+
+Output:
+>>> 
+= RESTART: C:\Users\LAB 1 SYS 20\AppData\Local\Programs\Python\Python38\minn.py
+enter n value4
+1
+2
+3
+0
+0
