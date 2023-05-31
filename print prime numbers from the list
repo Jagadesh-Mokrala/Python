@@ -1,0 +1,22 @@
+
+ write a program to print prime numbers from the list
+
+n=int(input())
+l=list(map(int,input().split()))
+k=''
+for item in l:
+    count=0
+    for i in range(1,item+1):
+        if(item%i==0):
+            count = count+1
+    if(count==2):
+        k=k+str(item)+' '
+print(k)
+
+
+Output:
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/4567.py
+6
+2 5 8 11 56 19
+2 5 11 19 
+>>> 
