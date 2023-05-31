@@ -1,0 +1,17 @@
+write a program to print non zero elements from the list
+
+n=int(input())
+l=list(map(int,input().split()))
+k=''
+for item in l:
+    if(item > 0):
+        k=k+str(item)+' '
+print(k)
+
+
+Output:
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/4567.py
+7
+2 0 3 0 3 0 0
+2 3 3 
+>>> 
