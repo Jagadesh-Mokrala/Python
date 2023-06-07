@@ -1,0 +1,7 @@
+write a program to print n characters from the given string in reverse order
+
+s=input()
+n=int(input())
+newst=s[:n:-1]
+print(newst)
+
