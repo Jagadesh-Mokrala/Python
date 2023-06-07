@@ -1,0 +1,13 @@
+write a program to replace given character from the given string
+s=input()
+oc=input()
+nc=input()
+s.replace(oc,nc)
+print(s)
+
+Output:
+=== RESTART: C:/Users/LAB SYS/AppData/Local/Programs/Python/Python311/1234.py ==
+aditya
+d-old
+k-new
+akitya
