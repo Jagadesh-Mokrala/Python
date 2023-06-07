@@ -1,0 +1,9 @@
+ Write a program to reverse first half of the character and
+    place remaining asusual.
+
+s=input()
+l=len(s)
+mid=l//2
+newst=s[:mid:-1]
+sechalf=s[mid::]
+print(newst+sechalf)
